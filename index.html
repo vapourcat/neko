@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Shelter System</title>
+    <link rel="stylesheet" href="top.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="radio.css">
+    <link rel="stylesheet" href="menu_hbg.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+    $(function(){
+        $('#BackTop').click(function(){ 
+            $('html,body').animate({scrollTop:0}, 333);
+        });
+        $(window).scroll(function() {
+            if ( $(this).scrollTop() > 300 ){
+                $('#BackTop').fadeIn(222);
+            } else {
+                $('#BackTop').stop().fadeOut(222);
+            }
+        }).scroll();
+    });
+</script>
+
+<button type="button" id="BackTop" class="toTop-arrow"></button>
+<script>
+    $(function(){
+        $('#BackTop').click(function(){ 
+            $('html,body').animate({scrollTop:0}, 333);
+        });
+        $(window).scroll(function() {
+            if ( $(this).scrollTop() > 300 ){
+                $('#BackTop').fadeIn(222);
+            } else {
+                $('#BackTop').stop().fadeOut(222);
+            }
+        }).scroll();
+    });
+</script>
+
+<!--===============================================================================================-->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-100574978-1', 'auto');
+        ga('send', 'pageview');
+
+        (function () {
+            var options = {
+                facebook: "109117218035191", // Facebook page ID
+                line: "//line.me/ti/p/Xb-z0YWlV8", // Line QR code URL
+                call_to_action: "", // Call to action
+                button_color: "#129BF4", // Color of button
+                position: "left", // Position may be 'right' or 'left'
+                order: "line,facebook", // Order of buttons
+            };
+            var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+
+    <div class="hamburger-lines">
+        <span class="line line1"></span>
+        <span class="line line2"></span>
+        <span class="line line3"></span>
+    </div> 
+
+    <div class="header">
+        <h1 class="logo">
+            <ul class="drop-down-menu">
+                <li><a href="#">關於我們</a>
+                    <ul>
+                        <li><a href="serve place.html">服務據點</a></li>
+                        <li><a href="#">徵才資訊</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">公告</a></li>
+                <li><a href="#">公立收容所</a></li>
+                <li><a href="#">動物認養</a></li>
+                <li><a href="#">樹葬資訊</a></li>
+                <li><a href="#">聯絡我們</a></li>
+            </ul>
+        </h1>
+    </div>
+
+    <div class="menu-items">
+        <li><a href="#">登入</a></li>
+        <li><a href="#">首頁</a></li>
+        <li><a href="#">公告</a></li>
+        <li><a href="#">關於我們</a></li>
+        <li><a href="#">聯絡我們</a></li>
+        <li><a href="#">點數兌換</a></li>
+        <li><a href="#">樹葬資訊</a></li>
+        <li><a href="#">公立收容所</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div style="margin-left:50px; margin-top:30px;">
+        <h2><b>請輸入查詢條件</h2>
+
+        <div class="choose">
+            <label class="radio">
+                <input type="radio" name="radio" value="dog" checked>
+                <span>狗</span>
+            </label>
+    
+            <label class="radio">
+                <input type="radio" name="radio" value="cat">
+                <span>貓</span>
+            </label>
+    
+            <label class="radio">
+                <input type="radio" name="radio" value="other">
+                <span>其他</b></span>
+            </label>            
+    
+            <label class="variety">
+                <span><b>動物品種</b></span>
+                <select class="pet_choice" id="ddlBreed">
+                    <option value="dog">- 動物品種 -</option>
+                    <option value="139">混種狗</option>
+                    <option value="153">貴賓</option>
+                    <option value="218">米格魯</option>
+                    <option value="140">馬爾濟斯</option>
+                    <option value="265">日本種</option>
+                    <option value="157">哈士奇</option>
+                    <option value="198">博美</option>
+                    <option value="264">法國鬥牛犬</option>
+                    <option value="260">牛頭梗</option>
+                    <option value="266">英國查理士獵犬</option>
+                    <option value="258">高山犬</option>
+                    <option value="256">大丹狗</option>
+                    <option value="255">阿富汗</option>
+                    <option value="254">大麥町</option>
+                    <option value="252">敖犬</option>
+                    <option value="250">蘇俄牧羊犬</option>
+                    <option value="249">大白熊</option>
+                    <option value="248">拳師犬</option>
+                    <option value="247">獵狐梗</option>
+                    <option value="244">挪威納</option>
+                    <option value="226">狐狸</option>
+                    <option value="241">巴吉度</option>
+                    <option value="240">杜賓</option>
+                    <option value="239">可卡</option>
+                    <option value="219">吉娃娃</option>
+                    <option value="221">約克夏</option>
+                    <option value="154">臘腸</option>
+                    <option value="155">柴犬</option>
+                    <option value="156">狼犬</option>
+                    <option value="158">黃金獵犬</option>
+                    <option value="159">拉布拉多</option>
+                    <option value="160">西施</option>
+                    <option value="161">雪納瑞</option>
+                    <option value="162">英國鬥牛犬</option>
+                    <option value="163">巴戈</option>
+                    <option value="194">柯基</option>
+                    <option value="195">迷你品</option>
+                    <option value="197">邊境牧羊犬</option>
+                    <option value="209">伯恩山</option>
+                    <option value="222">北京犬</option>
+                    <option value="235">喜瑪拉雅</option>
+                    <option value="267">比特</option>
+                    <option value="268">惠比特犬</option>
+                    <option value="224">西高地白梗</option>
+                    <option value="230">梗犬</option>
+                    <option value="228">波士頓</option>
+                    <option value="231">秋田</option>
+                    <option value="232">喜樂蒂</option>
+                    <option value="238">蝴蝶犬</option>
+                    <option value="236">鬆獅犬</option>
+                    <option value="237">古代牧羊犬</option>
+                    <option value="261">傑克羅素</option>
+                    <option value="262">比熊</option>
+                    <option value="269">比利時馬利諾犬</option>
+                    <option value="271">美國鬥牛犬</option>
+                    <option value="272">拉薩</option>
+                    <option value="1630">其他犬</option>
+                </select>
+            </label>
+
+            <label class="place">
+                <span><b>收容所</b></span>
+                <select class="place_choice" id="ddlBreed">
+                    <option value="">- 收容所 -</option>
+                    <option value="AAAAG">新北市政府動物保護防疫處</option>
+                    <option value="AAACG">新北市新店區公立動物之家</option>
+                    <option value="AAADG">新北市板橋區公立動物之家</option>
+                    <option value="AAAEG">新北市中和區公立動物之家</option>
+                    <option value="AAAFG">新北市淡水區公立動物之家</option>
+                    <option value="AAAGG">新北市瑞芳區公立動物之家</option>
+                    <option value="AAAHG">新北市五股區公立動物之家</option>
+                    <option value="AAAIG">新北市八里區公立動物之家</option>
+                    <option value="AAAJG">新北市三芝區公立動物之家</option>
+                    <option value="BAAAG">宜蘭縣流浪動物中途之家</option>
+                    <option value="CAAAG">桃園市動物保護教育園區</option>
+                    <option value="DAAAG">新竹縣公立動物收容所</option>
+                    <option value="EAAAG">苗栗縣生態保育教育中心(動物收容所)</option>
+                    <option value="FAAAG">臺中市動物之家南屯園區</option>
+                    <option value="FAABG">臺中市動物之家后里園區</option>
+                    <option value="GAAAG">彰化縣流浪狗中途之家</option>
+                    <option value="HAAAG">南投縣公立動物收容所</option>
+                    <option value="IAAAG">雲林縣流浪動物收容所</option>
+                    <option value="JAAAG">嘉義縣流浪犬中途之家</option>
+                    <option value="LAAAG">高雄市壽山動物保護教育園區</option>
+                    <option value="LAABG">高雄市燕巢動物保護關愛園區</option>
+                    <option value="MAAAG">屏東縣公立犬貓中途之家</option>
+                    <option value="NAAAG">臺東縣動物收容中心</option>
+                    <option value="OAAAG">花蓮縣狗貓躍動園區</option>
+                    <option value="PAAAG">澎湖縣流浪動物收容中心</option>
+                    <option value="QAAAG">基隆市寵物銀行</option>
+                    <option value="RAAAG">新竹市動物保護教育園區</option>
+                    <option value="TAAAG">嘉義市動物保護教育園區</option>
+                    <option value="UAAAG">臺南市動物之家灣裡站</option>
+                    <option value="UAABG">臺南市動物之家善化站</option>
+                    <option value="VAAAG">臺北市動物之家</option>
+                    <option value="XAAAG">連江縣流浪犬收容中心</option>
+                    <option value="YAAAG">金門縣動物收容中心</option>
+                </select>
+            </label>
+        </div>
+        <label class="num">
+            <p>動物晶片號碼</p>
+            <p><input placeholder="請輸入動物晶片號碼" class="num_input"></p>
+            <br>
+            <div>
+                <p><input type="button" class="button" name="sure" value="查詢"></p>
+                <br><br>
+            </div>
+        </label>
+        <h2>認養專區</h2>
+        <div class="img">
+            <a href="#"><img src="https://img.onl/DuaKHl" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/oZ2C2"  width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/i2Yfhs" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/0UY6xH" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/a2OM"   width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/ix1fMV" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/FiiaCp" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/gkeBEZ" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/dm8hmf" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/tgVpCz" width="18%" style="border:2px black solid;"></a>
+
+            <a href="#"><img src="https://img.onl/C8AZuf" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/QHwTYx" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/x60LWB" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/pr6juz" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/Huo170" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/fgYY5J" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/XQCZXg" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/sF5qv4" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/m0iKke" width="18%" style="border:2px black solid;"></a>
+            <a href="#"><img src="https://img.onl/m7W2Ch" width="18%" style="border:2px black solid;"></a>
+        </div>
+
+
+    </div>
+</body>
+</html>
